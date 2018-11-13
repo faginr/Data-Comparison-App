@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Data Comparison</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <p><strong>Insert text into fields one and two and press 'Compare'. Matching data is green non-matching is red. </strong></p>
+    <div class="userField">
+      <h1>Input Field 1</h1>
+      <textarea id="textAreaOne"></textarea>
+    </div>
+    
+    <div class="userField">
+      <h1>Input Field 2</h1>
+      <textarea id="textAreaTwo"></textarea>
+    </div>
+    <div id="submission">
+    <button onclick="compare(textAreaOne);">Compare</button>
+    </div>
+    <div id="divOne"> 
+      <h1 id="titleOne">Output Field 1</h1>
+      <p id="outputOne"></p>
+    </div>
+    <div id ="divTwo">
+      <h1 id="titleTwo">Output Field 2</h1>
+      <p id="outputTwo"></p>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

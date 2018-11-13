@@ -1,0 +1,61 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 15px;
+}
+
+.userField {
+  display: inline-block;
+  width: 44%;
+  margin: 15px; 
+  padding: 15px;
+  background-color: lightgrey;
+  border-radius: 13px;
+  box-shadow: 3px 3px 3px slategrey;
+}
+
+#submission {
+  text-align: center;  
+}
+
+#divOne {
+  display: inline-block;
+  margin: 15px;
+  padding: 15px;
+  width: 44%;
+  word-wrap: break-word;
+  background-color: lightgrey; 
+}
+
+#divTwo {
+  display: inline-block;
+  background-color: lightgrey;
+  width: 44%;
+  word-wrap: break-word; 
+  margin: 15px;
+  padding: 15px;
+}
+
+#titleOne {
+  background-color: white;
+  width: 240px;
+  border-radius: 30px;
+  padding: 6px;
+}
+
+#titleTwo {
+  background-color: white;
+  width: 240px;
+  border-radius: 30px;
+  padding: 6px;
+}
+
+#outputOne {
+  color: green;
+}
+
+#outputTwo {
+  color: green;
+}
